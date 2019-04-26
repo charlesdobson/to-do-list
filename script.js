@@ -12,46 +12,46 @@ function listLength(){
 }
 
 function createListElement() {
-	var li = document.createElement("li"); // creates an element "li"
-	li.appendChild(document.createTextNode(input.value)); // makes text from input field the li text
-	ul.appendChild(li); // adds li to ul
-	input.value = ""; // Reset text input field
+	var li = document.createElement("li"); // Creates an element "li"
+	li.appendChild(document.createTextNode(input.value)); // Makes text from input field the li text
+	ul.appendChild(li); // Adds li to ul
+	input.value = ""; // Reset text input field to prep for next input
 
 
-	// START STRIKETHROUGH
+	// Start strikethrough
 	function crossOut() {
 		li.classList.toggle("done");
 	}
 
 	li.addEventListener("click",crossOut);
-	// END STRIKETHROUGH
+	// End strikethrough
 
 
-	// START ADD DELETE BUTTON
+	// Start add/delete button
 	var dBtn = document.createElement("button");
 	dBtn.appendChild(document.createTextNode("X"));
 	li.appendChild(dBtn);
 	dBtn.addEventListener("click", deleteListItem);
-	// END ADD DELETE BUTTON
+	// End add/delete button
 
 
-	// ADD CLASS DELETE (DISPLAY: NONE)
+	// Add class delete (no display)
 	function deleteListItem(){
 		li.classList.add("delete")
 	}
-	// END ADD CLASS DELETE
+	// End class delete
 }
 
 
 function addListAfterClick(){
-	if (inputLength() > 0) { // makes sure that an empty input field doesn't create a li
+	if (inputLength() > 0) { // Makes sure that an empty input field doesn't create a li
 		createListElement();
 	}
 }
 
 function addListAfterKeypress(event) {
-	if (inputLength() > 0 && event.which ===13) { //this now looks to see if you hit "enter"/"return"
-		//the 13 is the enter key's keycode, this could also be display by event.keyCode === 13
+    // Checks to see if you hit enter (13)
+	if (inputLength() > 0 && event.which ===13) {
 		createListElement();
 	} 
 }
