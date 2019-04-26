@@ -16,3 +16,6 @@ All basic functionality has been added. In the future, I plan to add the followi
 - HTML
 - CSS
 - Javascript
+
+# License
+MIT © Charles Dobson
