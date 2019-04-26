@@ -13,6 +13,7 @@ All basic functionality has been added. In the future, I plan to add the followi
 ![screenshot](images/screenshot.png)
 
 # Tech
+**Built With**
 - HTML
 - CSS
 - Javascript
