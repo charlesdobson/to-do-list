@@ -6,13 +6,13 @@ This is my first Javascript project and I created it to gain a better understand
 
 # Build Status
 All basic functionality has been added. In the future, I plan to add the following features:
-    * Storage capability to maintain list when browser is refreshed
-    * Drop list items to bottom of list once checked as completed
+- Storage capability to maintain list when browser is refreshed
+- Drop list items to bottom of list once checked as completed
 
 # Screenshots
 ![screenshot](images/screenshot.png)
 
 # Tech
-    * HTML
-    * CSS
-    * Javascript
+- HTML
+- CSS
+- Javascript
