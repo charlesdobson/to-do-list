@@ -10,7 +10,7 @@ All basic functionality has been added. In the future, I plan to add the followi
     * Drop list items to bottom of list once checked as completed
 
 # Screenshots
-![github-small](https://imgur.com/rnUd8ry)
+![screenshot of app](https://imgur.com/rnUd8ry)
 
 # Tech
     * HTML
