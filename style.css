@@ -30,7 +30,7 @@ li {
     padding: 10px 20px;
 	color: #2E3440;
 	font-weight: 600;
-	background: #ebcb8b;
+	background: #EBCB8B;
 	transition: all 0.25s ease;
 	-webkit-transition: all 0.25s ease;
 	-moz-transition: all 0.25s ease;
@@ -39,7 +39,7 @@ li {
 }
 
 li:hover {
-	background: #d08770;
+	background: #D08770;
 }
 
 li > button {
@@ -47,7 +47,7 @@ li > button {
 	background: none;
 	border: none;
 	float: right;
-	color: #81A1C1;
+	color: #2E3440;
 	font-weight: 800;
 }
 
@@ -60,7 +60,9 @@ input {
 
 .done {
 	background: #a3be8c !important;
-	color: #5E81AC;
+    color: #2E3440;
+    text-decoration: line-through;
+    opacity: 0.8;
 }
 
 .delete {
